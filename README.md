@@ -6,7 +6,7 @@ An SEO friendly Ajax page loader using jQuery.
 To make the script work, you must have two things in your markup: A container and Links.
 
 <b>Container</b><br />
-The content that must be fetched when changing page must be wrapped in the ```#page__content``` element (can be a <div>, <section> or whathever that can wrap content). If using WordPress, I recommend not including the header or the footer, so only content will be fetched (No Stylesheets and no Scripts). The code should looks like this:
+The content that must be fetched when changing page must be wrapped in the ```#page__content``` element (can be a ```<div>```, a ```<section>``` or whathever that can wrap content). If using WordPress, I recommend not including the header or the footer, so only content will be fetched (No Stylesheets and no Scripts). The code should looks like this:
   
 ```<?php get_header(); ?>
 <div id="page__content">
